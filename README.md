@@ -1,6 +1,6 @@
 #### email
 
-nodemailer (AWS SES service)
+- nodemailer (AWS SES service)
 
 #### Project Structure
 
