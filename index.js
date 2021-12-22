@@ -11,8 +11,8 @@ app.use(express.static("./public"));
 
 app.post("/order", async (req, res) => {
   var instance = new Razorpay({
-    key_id: "rzp_test_55ZUz31TM4FtKZ",
-    key_secret: "FemKFdfPf0YbkXVcd9Au3Jus",
+    key_id: "rzp_test_zVb5dUJyxIaCsi",
+    key_secret: "2jkrRyfhfqods2DnBcB3w6A0",
   });
 
   const amount = req.body.amount;
